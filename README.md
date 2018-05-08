@@ -28,8 +28,10 @@ code:
 results:
 
 Democratic_Elitism.pdf: Highest word frequency graph for Dems
+
 Republican_Elitism.pdf: Highest word frequency graph for Repubs
-Party_Comparison.pdf: Compares frequency on same terms with overlapping bar graph
+
+Party_Comparison.pdf: Compares frequency for same terms, with overlapping bar graph
 
 ## More Information
 
