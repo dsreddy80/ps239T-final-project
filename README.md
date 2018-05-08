@@ -17,6 +17,8 @@ data:
 
 2. annenberg_pew_data.csv: Tabular dataset of 3371 observations of 12 variables, combining all meta-data and campaign document text
 
+** Neither of these files are contained in the repo, because they are larger than 25MB **
+
 code:
 
 01_import_and_clean.R: Imports unstructured data from the Annenberg/Pew Archive, reshapes into tabular format and cleans (further cleaning still to be performed), and exports to annenberg_pew_data.csv.
