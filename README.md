@@ -7,6 +7,7 @@ My project emplopys computerized text analysis, using R, to (1) import raw data 
 ## Dependencies 
 
 R version 3.4.3 (2017-11-30)
+
 R Studio Version 1.1.414
 
 ## Files
