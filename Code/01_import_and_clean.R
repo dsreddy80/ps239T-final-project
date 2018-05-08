@@ -18,7 +18,7 @@ library(lubridate)
 # to file -- "Genre" tag was missing for what becomes observation 
 # 1611 (Description: McGovern is inconsistent), so typed it in)
 
-speeches <- read_file("./PresidentsAnalysis/Data.txt")
+speeches <- read_file("./Data/Data.txt")
 
 # Replace Variables with @s to indicate columns
 
@@ -45,7 +45,7 @@ speeches <- gsub("Genre:", "\r\n", speeches, ignore.case = TRUE)
 
 # Writing to file for debugging
 
-fileConn <- file("./PresidentsAnalysis/Output")
+fileConn <- file("./Data/Output")
 writeLines(speeches, fileConn)
 close(fileConn)
 
@@ -167,7 +167,7 @@ speeches.df$Type <-  gsub("NA", "", speeches.df$Type)
 # Writes reshaped and cleaned (still a work in progress!)
 # tabular data to file
 
-write.csv(speeches.df, file = "annenberg_pew_data.csv")
+write.csv(speeches.df, file = "./Data/annenberg_pew_data.csv")
 
 # Attempted work-around, given earlier problems
 # with separating multiple varaiables within "Party" column
